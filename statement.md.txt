@@ -1,0 +1,49 @@
+Problem Statement: Tiered Classification System
+
+The objective of this project is to implement a simple computational model in Python that simulates a tiered classification system for determining medical risk. The program must evaluate inputs from three distinct binary tests and classify the outcome into one of three defined risk levels based on the cumulative count of positive results.
+
+The solution is specifically engineered to demonstrate the mastery of the core concepts mandated by the CSEsyllabus.
+
+Project Scope and Required Components
+
+The program is structured around a mandatory Input -> Process -> Report workflow, implemented using three distinct functions.
+
+1. Classification Rules (Prediction/Classification)
+The core logic uses conditional statements to map the count of positive tests (0-3) to a final risk assessment:
+
+Positive Test Count
+
+Final Risk Classification
+
+3
+
+CONFIRMED Jaundice (Highest Risk)
+
+2
+
+MODERATE Jaundice (Middle Risk)
+
+1 or 0
+
+LEAST CHANCE (Lowest Risk)
+
+2. CSE Syllabus Alignment
+Syllabus Concept
+
+Implementation in Code
+
+Functions
+
+The program is broken into three functional modules: gather_test_results, classify_outcome, and print_final_summary.
+
+Dictionary Data Type
+
+Used to store the global classification system (CLASSIFICATION_LEVELS) and to structure data passed between functions.
+
+Control Flow
+
+The classify_outcome function uses explicit if/elif/else constructs to execute the three-tiered prediction logic.
+
+Logical Workflow
+
+The main execution block (if name == "main":) strictly enforces the required Input -> Process -> Output sequence.
