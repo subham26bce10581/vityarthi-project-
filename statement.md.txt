@@ -1,7 +1,11 @@
 NAME : SUBHAM 
+
 REGISTRATION NUMBER : 26BCE10581
+
 COURSE : INTRODUCTION TO PROBLEM SOLVING
+
 DEPARTMENT : SCOPE
+
 Problem Statement: Tiered Classification System
 
 The objective of this project is to implement a simple computational model in Python that simulates a tiered classification system for determining medical risk. The program must evaluate inputs from three distinct binary tests and classify the outcome into one of three defined risk levels based on the cumulative count of positive results.
